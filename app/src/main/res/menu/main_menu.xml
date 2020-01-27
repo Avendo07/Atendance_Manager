@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/show_secure"
+        android:enabled="true"
+        android:title=""
+        android:visible="true"
+        app:actionLayout="@layout/show_protected_switch"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="Add Subject"
+        android:icon = "@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom"
+        android:onClick="add_sub"/>
+
+
+    <item
+        android:title="Delete Subject"
+        android:icon = "@android:drawable/ic_menu_delete"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        android:onClick="del_sub" />
+
+</menu>

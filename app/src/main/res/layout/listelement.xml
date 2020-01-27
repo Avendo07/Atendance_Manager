@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Subject"
+        android:gravity="center"
+        android:layout_weight="1.0"/>
+
+    <TextView
+        android:id="@+id/attend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Attend"
+        android:gravity="center"
+        android:layout_weight="1.0"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Total"
+        android:gravity="center"
+        android:layout_weight="1.0"/>
+
+    <TextView
+        android:id="@+id/perc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Perc"
+        android:gravity="center"
+        android:layout_weight="1.0"/>
+
+    <Switch
+        android:id="@+id/switched"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+</LinearLayout>
